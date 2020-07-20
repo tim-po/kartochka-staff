@@ -1,0 +1,16 @@
+@import "./colours";
+
+.action-button{
+  width: 128px;
+  height: 64px;
+  padding: 0;
+  background-color: $secondary-colour;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+
+  &.stretch{
+    width: 100%;
+  }
+
+}
